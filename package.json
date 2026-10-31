@@ -1,0 +1,12 @@
+{
+  "name": "brightloop-subscription-management",
+  "version": "1.0.0",
+  "description": "Brightloop - Smart Subscription Management System",
+  "scripts": {
+    "backend": "cd backend && node src/server.js",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && node src/seed.js",
+    "build": "cd frontend && npm run build"
+  }
+}
+
